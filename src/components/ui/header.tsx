@@ -16,8 +16,8 @@ export const Header = () => {
         </a>
       </nav>
       <div className="flex items-center justify-between gap-2 pr-2 w-full">
-        <h1 className="text-2xl font-bold" aria-label="[Template]">
-          <strong className="text-main">[Template]</strong> [Template]
+        <h1 className="text-2xl font-bold" aria-label="625 OVAS 2026">
+          <strong className="text-main">625</strong> OVAS 2026
         </h1>
         <div className="flex items-center gap-2">
           <Button
@@ -25,7 +25,8 @@ export const Header = () => {
             size="icon"
             className="bg-bw text-text"
             onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-            aria-label="Toggle dark mode">
+            aria-label="Toggle dark mode"
+          >
             {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </Button>
           <SignOut />

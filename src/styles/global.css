@@ -40,10 +40,10 @@
 }
 
 :root {
-  --main: #f0b62d;
-  --overlay: #FFEBCE; /* background color overlay for alert dialogs, modals, etc. */
+  --main: #f1b82e;
+  --overlay: #fffff0; /* background color overlay for alert dialogs, modals, etc. */
 
-  --background: #FFEBCE;
+  --background: #fffff0;
   --secondary-background: #fff; /* white and secondary black e.g. utility class variant would be: bg-[#fff] dark:bg-[#212121] */
   --blank: #121212; /* blank black and white */
   --border: #121212;
