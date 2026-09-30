@@ -17,7 +17,7 @@ Interfaz de usuario para explorar, buscar y gestionar OVAs (Objetos Virtuales de
 
 1. Clona el repositorio:
    ```bash
-   git clone git@github.com:300-OVAs-2026/ova-manager.git
+   git clone git@github.com:625-OVAs-2027/ova-manager.git
    cd ova-folder-scan-ui-vite
    ```
 
